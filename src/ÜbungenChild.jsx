@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 
 export default function ÜbungenChild({ namesLength, addName, data }) {
-  //   if (namesLength === 'error') {
-  //     throw new Error();
-  //   }
+  if (namesLength === 'error') {
+    throw new Error();
+  }
   const [newName, setNewName] = useState('');
   return (
     <div>
