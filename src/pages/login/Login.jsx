@@ -20,7 +20,7 @@ export default function Login() {
           <input type='password' placeholder='password' />
           <button className='loginButton'>Sign In</button>
           <span>
-            New to Chill with Sean? <b>Sign up now</b>{' '}
+            New to Chill with Sean??? <b>Sign up now</b>{' '}
           </span>
         </form>
       </div>
